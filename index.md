@@ -8,23 +8,23 @@ image:
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Built for Jekyll 3</h2>
-  <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
+  <h2 class="post-title">ইন্টেলিজেন্ট মেশিন</h2>
+  <p class="post-excerpt">অবশ্যই আমরা চাইছি যন্ত্র যাতে আমাদের মতো করে চিন্তা করতে পারে। সেটার বহিঃপ্রকাশ দেখছি সেলফড্রাইভিং কার, লং হ্যল ফ্লাইট ইত্যাদি, এর মানে হচ্ছে আমরা চাইছি যন্ত্র সহযোগী হিসেবে দাড়াক আমাদের পাশে।</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title">থিঙ্কিং মেশিন</h2>
+  <p class="post-excerpt">যেহেতু থিঙ্কিং মেশিন, এর মানে ইন্টেলিজেন্সটা সিন্থেটিক – সেকারণে আমাদের আলাপের মূল বিষয় “কৃত্রিম বুদ্ধিমত্তা। বিশেষ করে এই জ্ঞানের দরকার সমাজের অসঙ্গতি দূর করতে।</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
+  <h2 class="post-title">আমাদের চিন্তা যন্ত্রকে</h2>
+  <p class="post-excerpt">আমরা যেভাবে চিন্তা করি সেটার অনেক কিছুই দিয়ে দেয়া হয়েছে যন্ত্রকে। একটা এলিভেটর ঠিক কোন সময় পর্যন্ত কল নেবে, অথবা উপরে ওভারলোডেড হলে বাইরের কলে প্রতিটা ফ্লোরে দাড়াবে কিনা, এরকম কাজ হচ্ছে এখনই।</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
+  <h2 class="post-title"><a href="https://rakibul-hassan.gitbook.io/deep-learning/start-page/intro">বাংলায় কৃত্রিম বুদ্ধিমত্তা</a></h2>
+  <p class="post-excerpt">বাংলায় <a href="http://bit.ly/mlstart">ডিপ লার্নিং</a> নিয়ে বই না থাকায় বইটার ব্যাপারে এক্সপেকটেশন বেশি হওয়াই স্বাভাবিক।,  সেকারণে আমাদের এই সিরিজ। চলতে থাকবে সামনে।</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
