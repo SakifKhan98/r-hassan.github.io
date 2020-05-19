@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: Getting Started
+- title: কিভাবে শুরু করবো?
   url: /getting-started/
-  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+  excerpt: "কিভাবে আমরা শুরু করবো, কি শিখতে চাইবো?"
   image: 400x250.gif
 
-- title: Sample Articles
+- title: কোথায় যাবো?
   url: /articles/
   excerpt: "Examples of long form posts."
   image: 400x250.gif
 
-- title: Media
+- title: কি ভাবছি?
   url: /media/
   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
   image: 400x250.gif
 
-- title: About
+- title: আমি কে?
   url: /about/
   excerpt: "All about Skinny Bones for Jekyll."
   image: 400x250.gif
