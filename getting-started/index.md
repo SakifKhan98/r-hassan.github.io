@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Getting Started with Skinny Bones"
+title: ""মেশিন লার্নিং" নিয়ে যে প্রশ্নগুলো আমি সচরাচর পেয়ে থাকি, তার কিছু উত্তর:"
 date: 2014-06-25T13:57:25-04:00
 modified: 2016-06-01T16:21:57-04:00
 excerpt:
@@ -12,356 +12,208 @@ image:
 share: false
 ---
 
-The basics for getting Skinny Bones setup.
+"মেশিন লার্নিং" নিয়ে যে প্রশ্নগুলো আমি সচরাচর পেয়ে থাকি, তার কিছু উত্তর:
 
 {% include toc.html %}
 
-## Installation
-
-Skinny Bones requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle update` if you aren't on the latest version or `bundle install` if this is your first time installing it.
-
-If you are creating a new Jekyll site using Skinny Bones following these steps:
-
-1. [Download Skinny Bones](https://github.com/mmistakes/jekyll-theme-skinny-bones/archive/master.zip) and unzip.
-2. Rename `jekyll-theme-skinny-bones-master` to something meaningful ie: `new-site`
-3. Run `bundle install` to install all Jekyll and all dependencies.
-4. Update `_config.yml`, add navigation, and add posts/pages. Full details below.
+## কিছুই জানিনা, শুরু করবো কোথা থেকে?
 
-If you want to use Skinny Bones with an existing Jekyll site follow these steps:
+#### _"মেশিন লার্নিং" নিয়ে যে প্রশ্নগুলো আমি সচরাচর পেয়ে থাকি, তার কিছু উত্তর:_
 
-1. [Download Skinny Bones](https://github.com/mmistakes/jekyll-theme-skinny-bones/archive/master.zip) and unzip.
-2. Rename `jekyll-theme-skinny-bones-master` to something meaningful ie: `new-site`
-3. Run `bundle install` to install all Jekyll and all dependencies.
-4. Add all of your existing posts, pages, and any other content you want to move over.
-5. Update YAML front matter blocks to match names used by Skinny Bones. Full details below.
-6. Update `config.yml`, add navigation links. Full details below. 
+* সবচেয়ে বেশি করা প্রশ্ন \*
 
----
+_**\***_ **কিছুই জানি না। আমি বিবিএ/পলিটেকনিক/মেডিকেলের স্টুডেন্ট। কোন প্রোগ্রামিং অভিজ্ঞতা নেই। কিভাবে শুরু করবো?**
 
-## Running Jekyll
+মেশিন লার্নিং সবার জন্য। কমনসেন্স দিয়ে শুরু করা সম্ভব। কম্পিউটার ফিল্ডের বাইরের মানুষ ব্যবহার করছে বেশি। ব্যবসা প্রশাসন, ভাষাতত্ত্ব, হেলথকেয়ার, আইন, হিউম্যান রিসোর্স, ইত্যাদি ইত্যাদি। মেশিন লার্নিং দিয়ে বাংলা থেকে ইংরেজি ট্রান্সলেশন/টেক্সট টু স্পীচ করতে চাইলে কে করবেন? একজন ভাষাতত্ত্ববিদ। সামনের মাসগুলোতে কে কে আপনার কোম্পানি ছেড়ে যাবে সেটা বের করবে কে মেশিন লার্নিং দিয়ে? একজন 'এইচআর' ডিপার্টমেন্টের কর্মকর্তা।
 
-The preferred method for running Jekyll is with `bundle exec`, but if you're willing to deal with gem conflicts feel free to go cowboy with a `jekyll build` or `jekyll serve`.
+মেশিন লার্নিংকে "ট্রিট" করতে হবে একটা সাধারণ টুল হিসেবে, পাটিগণিতের মত একটা টুল। এই টুল এখন ব্যবহার হচ্ছে প্রায় সব কিছুতেই। যতো আগে শিখবেন ততোই এগিয়ে থাকবেন আপনার নিজস্ব ফিল্ডে। একটা জিনিস বুঝতে পারছি - যারা কম্পিউটার সায়েন্স ব্যাকগ্রাউন্ডের না, তারা ব্যাপারটাকে প্রচন্ড ভয় পাচ্ছেন। বিষয়টা সব ব্যাকগ্রাউন্ডের জন্য প্রযোজ্য। 
 
-> In some cases, running executables without bundle exec may work, if the executable happens to be installed in your system and does not pull in any gems that conflict with your bundle.
->
->However, this is unreliable and is the source of considerable pain. Even if it looks like it works, it may not work in the future or on another machine.
+মেশিন লার্নিং এ সেরকম প্রথাগত প্রোগ্রামিং নেই। যা আছে সেগুলো কমনসেন্স, সাধারণ লজিক থেকে বোঝা যায়। পাশাপাশি বিভিন্ন কাজের জন্য দরকারি "কোড স্নিপেট" পাওয়া যায় "স্ট্যাক ওভার ফ্লো" এর মত সাইটে। আবারও বলছি, একদম ভয় পাবেন না!
 
-```bash
-bundle exec jekyll build
+![&#x9AE;&#x9C7;&#x9B6;&#x9BF;&#x9A8; &#x9B2;&#x9BE;&#x9B0;&#x9CD;&#x9A8;&#x9BF;&#x982; &#x9A8;&#x9BF;&#x9DF;&#x9C7; &#x9B2;&#x9C7;&#x996;&#x9BE; &#x9AC;&#x987; \(&#x9A1;&#x9BF;&#x9AA; &#x9B2;&#x9BE;&#x9B0;&#x9CD;&#x9A8;&#x9BF;&#x982; &#x9AC;&#x987; &#x9AC;&#x9BE;&#x9A6; &#x9A6;&#x9BF;&#x9DF;&#x9C7;\)](../.gitbook/assets/img_0262.JPG)
 
-bundle exec jekyll serve
-```
+## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
----
+হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)। 
 
-## Scaffolding
+{% hint style="info" %}
+প্রথম বইয়ের দুটো সংস্করণ, আমি দ্বিতীয় সংস্করণ নিয়ে আলাপ করবো। প্রথম সংস্করণ প্রয়োজন নেই, সেটা বাজারেও রাখিনি।
+{% endhint %}
 
-How Skinny Bones is organized and what the various files are. All posts, layouts, includes, stylesheets, assets, and whatever else is grouped nicely under the root folder. The compiled Jekyll site outputs to `_site/`.
+| বইয়ের নাম | অনলাইন লিংক | প্রিন্ট বই | ইউটিউব লিংক |
+| :--- | :--- | :--- | :--- |
+| হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbooks.io/mlbook-titanic/content/) | [রকমারি](https://rokomari.com/book/174186/) | [প্লেলিস্ট](http://bit.ly/ml-2nd) |
+| 'শূন্য থেকে পাইথন মেশিন লার্নিং' \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbook.io/scikit-learn/%20) | [রকমারি](https://www.rokomari.com/book/187277/) | [প্লেলিস্ট](http://bit.ly/ml-py2) |
+| হাতেকলমে পাইথন ডিপ লার্নিং | [গিটবুক](https://www.rokomari.com/book/198757/%20) | [রকমারি](https://www.rokomari.com/book/198757/) | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
+| তিনটা বই একসাথে কেনার লিঙ্ক |  | [রকমারি](https://www.rokomari.com/book/187570/) | [ভবিষ্যত](https://www.youtube.com/playlist?list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
 
-```bash
-jekyll-theme-skinny-bones-master
-├── _site                               # compiled site ready to deploy
-├── _images                             # unoptimized images
-├── _includes                           # reusable blocks for _layouts
-├── _layouts
-|    ├── archive.html                   # archive listing of a group of posts or collection
-|    ├── article.html                   # articles, blog posts, text heavy material layout
-|    ├── default.html                   # base
-|    ├── home.html                      # home page
-|    └── media.html                     # portfolio, work, media layout
-├── _posts                              # posts grouped by category for sanity
-├── _sass
-|   ├── vendor                          
-|   |   ├── bourbon                     # Bourbon mixin library   
-|   |   └── neat                        # Neat grid library
-|   ├── _animations.scss                # CSS3 animations
-|   ├── _badges.scss                    # small badges
-|   ├── _bullets.scss                   # visual bullets
-|   ├── _buttons.scss                   # buttons
-|   ├── _grid-settings.scss             # Neat settings         
-|   ├── _helpers.scss                   # site wide helper classes
-|   ├── _layout.scss                    # structure and placement, the bulk of the design
-|   ├── _mixins.scss                    # custom mixins
-|   ├── _notices.scss                   # notice blocks
-|   ├── _syntax.scss                    # Pygments.rb syntax highlighting
-|   ├── _reset.scss                     # normalize and reset elements
-|   ├── _sliding-menu.scss              # sliding menu overlay
-|   ├── _variables.scss                 # global colors and fonts
-|   ├── css
-|   └── main.scss                       # loads all Sass partials
-├── fonts                               # webfonts
-├── images                              # images
-├── js
-|   ├── plugins                         # jQuery plugins
-|   ├── vendor                          # vendor scripts that don't get combined with the rest
-|   ├── _main.js                        # site scripts and plugin settings go here
-|   └── main.min.js                     # concatenated and minified site scripts
-├── apple-touch-icon-precomposed.png    # 152x152 px for iOS
-├── favicon.ico                         # 32x32 px for browsers
-└── index.md                            # homepage content
-└── _config.yml                         # Jekyll settings
-```
+#### ১. হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\)
 
----
+\(ক\) মেশিন লার্নিং শেখার শুরুটার জন্য সবচেয়ে ভালো হচ্ছে বই। বইগুলো লেখা হয়েছে 'স্টেপ বাই স্টেপ' আঙ্গিকে। কোন বই শুরু করতে প্রোগ্রামিংয়ের পূর্ব অভিজ্ঞতা দরকার নেই। ১ম বইয়ের লিংক : [https://rokomari.com/book/174186/](https://rokomari.com/book/174186/) \(দ্বিতীয় সংস্করণ হলেই চলবে\) বই না কিনতে চাইলে পুরো বই অনলাইনে পাবেন ১ম সংস্করণ। লিংক [https://raqueeb.gitbooks.io/mlbook-titanic/content/](https://raqueeb.gitbooks.io/mlbook-titanic/content/) । এই বইয়ের ভিডিও সিরিজ আছে ইউটিউব প্লেলিস্ট হিসেবে [http://bit.ly/ml-2nd](http://bit.ly/ml-2nd) ।
 
-## Site Setup
+\[প্রথম সংস্করণ শুধুমাত্র 'আর প্রোগ্রামিং' এনভায়রনমেন্ট দিয়ে ছিলো। সেটা প্রতিস্থাপিত হয়েছে দ্বিতীয় সংস্করণ দিয়ে। প্রথম সংস্করণ যারা কিনেছেন, তাদের দ্বিতীয় সংস্করণ ব্যবহার করতে হবে না। যারা দ্বিতীয় সংস্করণ কিনেছেন তাদের প্রথম সংস্করণ দরকার নেই\]
 
-A quick checklist of the files you'll want to edit to get up and running.
+#### ২. 'শূন্য থেকে পাইথন মেশিন লার্নিং' \(দ্বিতীয় সংস্করণ\)
 
----
+\(খ\) যারা শুধুমাত্র পাইথন দিয়ে মেশিন লার্নিং শিখতে চান, কিন্তু পাইথন জানেন না, তাদের জন্য আরেকটা বই, 'শূন্য থেকে পাইথন মেশিন লার্নিং'। প্রিন্ট বই এর লিঙ্ক [https://www.rokomari.com/book/187277/](https://www.rokomari.com/book/187277/) পড়ে দেখতে চাইলে লিংক: [https://raqueeb.gitbook.io/scikit-learn/](https://raqueeb.gitbook.io/scikit-learn/) । এই বইয়ের ভিডিও সিরিজ আছে ইউটিউব প্লেলিস্ট হিসেবে [http://bit.ly/ml-py2](http://bit.ly/ml-py2) ।
 
-### Site Wide Configuration
+####  ৩. হাতেকলমে পাইথন ডিপ লার্নিং \(অনলাইন এবং হার্ডকপি সংস্করণ\)
 
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each anyways:
+\(গ\) যারা ডিপ লার্নিং শিখতে চান, তাদের ট্র্যাক হচ্ছে শুরুতে পাইথনের বই,[ 'শূন্য থেকে পাইথন মেশিন লার্নিং'](https://www.rokomari.com/book/187277/) এবং পরের বই ["হাতেকলমে পাইথন ডিপ লার্নিং"](https://rakibul-hassan.gitbook.io/deep-learning/)। আগের বইটা ছাড়া পরের বইটা শুরু করা যাবে না। বইটা আছে অনলাইনে। প্রিন্ট সংস্করণ আসছে এই জানুয়ারিতে। 
 
-#### Site Title
+\(ঘ\) **হাতেকলমে পাইথন ডিপ লার্নিং** বইয়ের হার্ডকপি লিংক: [https://www.rokomari.com/book/198757/](https://www.rokomari.com/book/198757/) এবং অনলাইনে পড়তে চাইলে [https://rakibul-hassan.gitbook.io/deep-learning/](https://rakibul-hassan.gitbook.io/deep-learning/) লিংক।
 
-The title of your site... shocker!
+\(ঙ\) হার্ডকপি পাওয়া যাবে রকমারি, আদর্শ, বাতিঘরসহ বেশ কয়েকটা লাইব্রেরিতে। নীলক্ষেতেও পাওয়া যায় কয়েকটা দোকানে। **মানিক লাইব্রেরী নীলক্ষেত ঢাকা**, ০১৭৩৫৭৪২৯০৮ এবং **হক লাইব্রেরী নীলক্ষেত** ০১৮২০১৫৭১৮১ / ০১৫১১১৫৭১৮১ / ০১৭৪৩৫১৬৩৪৪।
 
-Example `title: Skinny Bones`
+\(চ\) মেশিন লার্নিং নিয়ে ১০০+ ভিডিও সিরিজ পাবেন ইউটিউব এবং ফেসবুকে। প্লে-লিস্ট হিসেবে।
 
-#### Site Description
+* ইউটিউব প্লে-লিস্ট: [http://bit.ly/ml-2nd](http://bit.ly/ml-2nd) এবং [http://bit.ly/ml-py1](http://bit.ly/ml-py1) এবং [http://bit.ly/ml-py2](http://bit.ly/ml-py2)
+* ইউটিউব চ্যানেল: [http://bit.ly/ml-trng](http://bit.ly/ml-trng) 
+* ফেসবুক প্লে-লিস্ট [https://www.facebook.com/pg/mltraining/videos/](https://www.facebook.com/pg/mltraining/videos/) লিংকে গিয়ে খুঁজুন "হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\) ভিডিও সিরিজ"
 
-A description of your site. Used in page meta.
+## সবুজ-হলুদ, লাল রঙের বই আর সাদা রঙের বই - এই দুটোর মধ্যে কোনটা দিয়ে আগে শুরু করব এবং কোনটা কোন সময়ের জন্য উপযোগী?
 
-Example `description: "A lightweight site starter for Jekyll"`
+![&#x9B6;&#x9C1;&#x9B0;&#x9C1; &#x9E7; &#x985;&#x9A5;&#x9AC;&#x9BE; &#x9E8;, &#x98F;&#x9B0;&#x9AA;&#x9B0;&#x9C7;&#x9B0; &#x9E9; &#x98F;&#x9AC;&#x982; &#x9EA;](../.gitbook/assets/rsz_teqt.png)
 
-#### Site Logo
+1. [কালো বই = বাজারে নেই, লাল বইয়ের প্রথম সংস্করণ](https://www.rokomari.com/book/160337/) \(প্রয়োজন নেই\)
+2. [লাল বই = হাতেকলমে মেশিন লার্নিং](https://www.rokomari.com/book/174186/), দ্বিতীয় সংস্করণ \(আর এবং পাইথন\), _\(কোন ল্যাঙ্গুয়েজ জানার দরকার নেই, যা শিখতে হবে সেটা দেয়া আছে বইয়ে\)_
+3. [সাদা বই = শূন্য থেকে পাইথন মেশিন লার্নিং](https://www.rokomari.com/book/187277/) \(শুধু পাইথন\)
+4. [সবুজ-হলুদ = হাতেকলমে পাইথন ডিপ লার্নিং](https://www.rokomari.com/book/198757/) \(হার্ডকাভার\)
 
-Site logo, used mostly as a default image that appears on Twitter Cards if a large feature image isn't present. If used place a square image around 120 x 120 pixels in `/images/`.
+লাল বইটা হচ্ছে যারা মেশিন লার্নিং সম্বন্ধে কিছুই জানেন না এবং শুরু করতে চান, প্রোগ্রামিং সম্বন্ধে কোন ধারনা নেই, তবে মেশিন লার্নিং কে নিজেদের মতো করে বুঝতে চান। এই বইটি শুরু করা হয়েছে আর প্রোগ্রামিং এনভারমেন্ট দিয়ে, একই প্রজেক্ট সলভ করা আছে পাইথন দিয়ে।
 
-Example `logo: 120x120.gif`
+সূচিপত্র: [http://bit.ly/ml-ho-2nd](http://bit.ly/ml-ho-2nd)
 
-<figure>
-  <img src="{{ site.url }}/images/twitter-card-screenshot.jpg" alt="sample Twitter Card screenshot">
-  <figcaption>Site logo is used for Twitter Cards when a feature image is not defined for the page.</figcaption>
-</figure>
+সাদা বইটা হচ্ছে, সেই একই গ্রুপের জন্য তবে এর সাথে যুক্ত হচ্ছে, কেউ যদি শুধুমাত্র পাইথন দিয়ে শুরু করতে চান। এই বইটিতে শুধুমাত্র পাইথন দিয়ে কাভার করা আছে।
 
-#### Site Teaser Image
+সূচিপত্র: [http://bit.ly/ml-sk-py](http://bit.ly/ml-sk-py)
 
-Default teaser image used for posts and pages that do not have one assigned. This image shows up in the archive grid module. It can have whatever dimensions you want, I've found that an image with rectangular proportions work nicely. Like the site logo, place in `/images/`.
+মেশিন লার্নিং এর শুরুটা আর এনভারমেন্ট দিয়ে শেখা খুব সহজ। দুটো বই সলভ করার জন্য কোন ধরনের প্রোগ্রামিং অভিজ্ঞতার দরকার নেই। বই দুটো তে যথেষ্ট ব্যাকগ্রাউন্ড ইনফরমেশন আছে যাতে ব্যাপারটা সেখানেই বোঝা যায়। দুটো বইয়ে দুটো বিশ্বখ্যাত আলাদা আলাদা প্রজেক্ট।
 
-Example `teaser: 400x250.gif`
+এরপর ডিপ লার্নিং দিয়ে শিখতে চাইলে **হাতেকলমে পাইথন ডিপ লার্নিং \(হার্ডকাভার\)** বইটা ব্যবহার করতে পারেন।
 
-#### Site URL
+বই কেনার আগে গিটবুক এ পড়ে দেখতে পারেন। ২০% কনটেন্ট আপডেট আছে প্রিন্ট বইয়ে। আগে পড়ে দেখুন, এরপর কেনার সিন্ধান্ত নিন।
 
-Used to generate absolute URLs in `sitemap.xml`, `atom.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+১. [https://rakibul-hassan.gitbook.io/deep-learning/](https://rakibul-hassan.gitbook.io/deep-learning/)
 
-Examples:
+২. [https://rakibul-hassan.gitbook.io/mlbook-titanic/](https://rakibul-hassan.gitbook.io/mlbook-titanic/)
 
-```yaml
-url: https://mmistakes.github.io/jekyll-theme-skinny-bones
-url: http://localhost:4000
-url: https://yourdomain.com
-url: 
-```
+৩. [https://raqueeb.gitbook.io/scikit-learn/](https://raqueeb.gitbook.io/scikit-learn/)
 
-#### Site Locale
+## ১. মেশিন লার্নিং কেন শিখবো?
 
-The default is `en` for English. `site.locale` is used to apply localized text for a few key strings.
+উত্তর: সোজা উত্তর, সবার শেখার দরকার নেই। শুরুতে, নিজেকে প্রশ্ন করা যেতে পারে, আমার এই মুহূর্তে কোন কাজটি সনাতন পদ্ধতিতে করা যাচ্ছে না অথবা করতে সময় লাগছে, যা মেশিন লার্নিং দিয়ে খুব তাড়াতাড়ি করা সম্ভব। আপনার সমস্যাটি প্রথমে ডিফাইন করুন, এরপর দেখুন সেটা আসলে মেশিন লার্নিং সমস্যা কি না?
 
----
+ট্রিট করুন, মেশিন লার্নিং আরেকটা টুল। এক নিঃশ্বাসে পড়ার লিংক: [https://raqueeb.gitbook.io/scikit-learn/what-is-ml/what-is-ml](https://raqueeb.gitbook.io/scikit-learn/what-is-ml/what-is-ml)
 
-### Localization
+## ২. কিভাবে বুঝব সমস্যাটি মেশিন লার্নিং দিয়ে সমাধান করা সম্ভব?
 
-The theme supports localized text through a data file for the following text strings:
+উত্তর: সাধারণত: মেশিন লার্নিং সমস্যাগুলোর উত্তর আমাদের কাছে রাখা পুরনো ডাটা থেকে আসে। কোন কোন সময় উত্তর হিসেবে হ্যাঁ অথবা না, মানে ক্লাসিফিকেশন সমস্যা, অথবা একটা কন্টিনিউয়াস আউটপুট, যেমন, কত মাস পরে ‘রিটার্ন অন ইনভেস্টমেন্ট’ আসতে পারে, কবে আমাদের একজন গ্রাহক চলে যেতে পারে? এগুলোকে আমরা বলি ‘রিগ্রেশন’ সমস্যা।
 
-* Table of contents headline --- "Overview"
-* Slide-out menu title --- "Table of Contents"
-* Author byline --- "Written by"
-* Post/page date --- "Updated"
+অথবা এর পাশাপাশি আমাদের গ্রাহকদের কয়েকটা ক্লাস্টার গ্রুপে ফেলা যেতে পারে যেখানে তাদের ব্যবহার প্যাটার্ন দেখে নতুন সার্ভিস প্রভিশন করা যেতে পারে। এটা কিছুটা ‘আন সুপারভাইজড’ লার্নিং সমস্যা। লিংক: [https://raqueeb.gitbook.io/scikit-learn/tools/supervised](https://raqueeb.gitbook.io/scikit-learn/tools/supervised)
 
-To update or add other translations edit `_data/messages.yml` and then set the appropriate `locale` in `_config.yml`. For example to switch from English to German replace `locale: en` with `locale: de` or `locale: de_DE`.
+## ৩. মেশিন লার্নিং এর শুরুটা ধরতে কতদিন লাগতে পারে?
 
-Feel free to submit a pull request for additional languages and any other parts of the theme that could be localized.
+উত্তর: দুইদিন। তবে, ধারণা পাবার জন্য আমি অনুরোধ করব ‘প্রজেক্ট টাইটানিক’ ব্যাপারটা দেখার জন্য। প্রসপেক্টিভ ডাটা সায়েন্টিস্টদের ‘গেটওয়ে টু মেশিন লার্নিং’ হচ্ছে এই প্রজেক্ট। একটা রিয়েল প্রজেক্ট এর সমস্যাকে কিভাবে সমাধান করা হয়েছে সেটা দেখলে বুঝতে সুবিধা হবে। লিংক [https://www.kaggle.com/c/titanic/](https://www.kaggle.com/c/titanic/) মজার কথা হচ্ছে পুরো সমস্যাটাকে সমাধান করে নিচের বইটা লেখা হয়েছে। [https://www.rokomari.com/book/174186/](https://www.rokomari.com/book/174186/)
 
----
+## ৪. কোন এনভারমেন্ট দিয়ে মেশিন লার্নিং শেখা সোজা?
 
-### Navigation Links
+উত্তর: আপনি কি জানেন মেশিন লার্নিং মাইক্রোসফট এক্সেল দিয়ে ও শেখা সম্ভব? এই মুহূর্তে পৃথিবীতে বেশ কয়েকটি এনভারমেন্ট নিয়ে মেশিন লার্নিং এ কাজ হয়। স্ট্যাটিসটিক্স এনভারমেন্ট থেকে এসেছে “আর” প্রোগ্রামিং এনভারমেন্ট। এর অর্থ হচ্ছে ডেটাকে ঘিরে তৈরি তৈরি হয়েছিল এই “আর”। আমাকে প্রশ্ন করলে বলবো, “আর” দিয়ে মেশিন লার্নিং শেখা অনেক সহজ। বিশেষ করে শুরুর দিকে। ডেটার ভেতরের পার্সপেক্টিভ পেতে সুবিধা হয়। পাশাপাশি ‘পাইথন’ ইউনিভার্সাল প্রোগ্রামিং ল্যাঙ্গুয়েজ হিসেবে মেশিন লার্নিং এ ব্যবহার হচ্ছে। শুরুতে প্রোগ্রামিং এনভারমেন্ট নিয়ে মাথা না ঘামানোই ভালো। মেশিন লার্নিং এর পেছনের দর্শন জানলে শেখা খুব সহজ হয়। লিংক [https://raqueeb.gitbooks.io/mlbook-titanic/content/kaggle/why-r.html](https://raqueeb.gitbooks.io/mlbook-titanic/content/kaggle/why-r.html)
 
-To set what links appear in the top navigation edit `_data/navigation.yml`. Use the following format to set the URL, title, teaser image/description (used in off-canvas menu) of each link:
+## ৫. শুরুতে কি ভালো? “আর” নাকি “পাইথন”?
 
-```yaml
-- title: Portfolio
-  url: /portfolio/
-  excerpt: "Things I’ve designed, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+উত্তর: শেখানোর দ্বায়িত্ব আমার। এক বছরে। ছেড়ে দিন আমার হাতে। আপনাকে এমনভাবে তৈরি করা হবে যেখানে যেটা দরকার সেটা দিয়েই। কিছুটা ল্যাঙ্গুয়েজ ইন্ডিপেন্ডেন্ট। আগে ঠিক করবো কনসেপ্টে। বিস্তারিত উত্তর এখানে। লিংক: [https://raqueeb.gitbook.io/scikit-learn/philosophy/philosophy-backed-learning](https://raqueeb.gitbook.io/scikit-learn/philosophy/philosophy-backed-learning) এবং [https://raqueeb.gitbook.io/scikit-learn/philosophy/how-to-start](https://raqueeb.gitbook.io/scikit-learn/philosophy/how-to-start)
 
-- title: Made Mistakes
-  url: http://mademistakes.com  
-```
+## ৬. এক বসায় কনসেপ্ট পেতে চাই, পারা যাবে?
 
-To set what links appear in the footer edit `_data/footer.yml`. Use the following format for each link:
+উত্তর: যাবে। ৩০ মিনিটে ভিডিও দেখতে হবে ২০+টা। ফেসবুক প্লে-লিস্ট [http://bit.ly/fb-2nd](http://bit.ly/fb-2nd)
 
-```yaml
-- title: Subscribe
-  url: /subscribe/
+ইউটিউব প্লে-লিস্ট: [http://bit.ly/ml-2nd](http://bit.ly/ml-2nd)
 
-- title: External Page
-  url: http://mademistakes.com  
-```
+## ৭. আমি কম্পিউটার সাইন্স পড়িনি? পারবো তো?
 
----
+উত্তর: আমার প্রচুর পরিচিত মানুষ আছেন যারা হেলথকেয়ার সেক্টর এ কর্মরত। হেলথকেয়ার সেক্টরে মেশিন লার্নিং নিয়ে অসাধারণ কাজ হচ্ছে। নতুন নতুন ওষুধের ফর্মুলা, যে কোন রোগের আর্লি ডিটেকশন, নিউরোসায়েন্স নিয়ে কাজ করছেন আমাদের ডাক্তার বন্ধুরা। মেশিন লার্নিং এর জন্য দরকার আপনার কর্মক্ষেত্রের ‘ডোমেইন নলেজ’। বাকি কোডের জন্য আছে দুটো বাংলা বই। লিংক [https://raqueeb.gitbooks.io/mlbook-titanic/content/](https://raqueeb.gitbooks.io/mlbook-titanic/content/)
 
-### Posts
+[https://raqueeb.gitbook.io/scikit-learn/](https://raqueeb.gitbook.io/scikit-learn/)
 
-#### Organizing Posts
+## ৮. আপনি কি কি শিখেছেন?
 
-Create new MarkDown (.md) files in `_posts`. If you aren't using categories to organize your posts then don't worry about this next bit. I like to organize all my posts by a single category and file them under sub-directories beneath `_posts`. For example if I have post named `2014-06-01-new-post.md` and it has a category of `foo` it will have the following path:
+উত্তর: আমার কথা বললে বলবো, আমি দুটোই শিখেছি শুরুতে - কারণ, দুটো 'দুই' জায়গায় ভালো। মেশিন লার্নিং শেখার শুরুতে 'আর' ভালো, প্রোডাকশন লেভেলে পাইথন ভালো। যেখানে যেটা লাগে। ছোট দূরত্বে রিকশা ভালো, বড় দূরত্বে হয়তোবা মোটর সাইকেল ভালো। আমাদের জানতে হবে কোথায় কি লাগবে?
 
-`_posts/foo/2014-06-01-new-post.md`
+যুগটা অপটিমাইজেশনের যুগ। দরকার মতো আরো কিছু জিনিস শিখতে হতে পারে। লজ্জা করলেই ক্ষতি। কিছুই শেখা যাবে না। এই পঞ্চাশ বছরের কাছাকাছি বয়সেও আমাকে শিখতে হচ্ছে অনেককিছু। প্রতিদিন। না শিখলে - ঝরে পড়ে যাবেন যে কেউ। এমুহুর্তে আমাকে মুগ্ধ করে রাখছে 'সাইকিট-লার্ন' লাইব্রেরি। জিনিসটা এতো মজার - মন ভালো হয়ে যায় সমস্যা পেলে।
 
-Which when processed by jekyll would have a URL of `domain.com/foo/new-post/`.
+লিংক [https://raqueeb.gitbook.io/scikit-learn/tools/scikit-learn](https://raqueeb.gitbook.io/scikit-learn/tools/scikit-learn)
 
----
+## ৯. আমি মেশিন লার্নিং শিখতে চাই শুধুমাত্র 'পাইথন' দিয়ে? সম্ভব?
 
-### YAML Front Matter
+উত্তরঃ সম্ভব, তবে যেই সময় লাগবে তাতে আপনি উৎসাহ হারিয়ে ফেলার সম্ভাবনা বেশি। ব্যাপারটা নিজে দেখতে পারেন চেখে। এই পুরো এক্সারসাইজটা পাইথনে করে দেয়া আছে নিচের লিংকে। যারা পাইথন জানেন আগে থেকে তাদের জন্যও আর দিয়ে শেখা সহজ। আমার অভিজ্ঞতা তাই বলে।লিংক লিংক 
 
-The only YAML Front Matter required for posts and pages are `title` and `layout`, everything else is optional.
+লিংক:  [http://nbviewer.jupyter.org/github/raqueeb/mltraining/blob/master/Python/titanic-project-test.ipynb](http://nbviewer.jupyter.org/github/raqueeb/mltraining/blob/master/Python/titanic-project-test.ipynb)
 
-#### Categories
+সব জায়গায় বেসিক কনসেপ্ট একই। তবে, আবারো বলছি 'আর' দিয়ে বোঝা যায় ভালো। আগেই বলেছি যারা কম্পিউটার প্রযুক্তিতে পড়েননি অথবা মেশিন লার্নিং একদম ভেতর থেকে হাতেকলমে শিখতে চান, তাদের জন্য 'আর' অন্য লেভেলের জিনিস।
 
-Add `categories: ` and assign a single category name for added organization. The theme makes the assumption that posts will only be assigned to one category at a time. You can certainly assign multiple categories but unexpected things may happen with the permalink structure.
+কম্পিউটার প্রযুক্তিতে পড়েছেন আর পাইথন জানেন বলে 'মেশিন লার্নিং' শিখে যাবেন সেটাও ভ্রান্ত ধারণা। পাইথন একটা ভালো ফ্রেমওয়ার্ক, প্রায় অনেককিছুই করা যায়। তাই বলে 'মেশিন লার্নিং' আর পাইথন পাশাপাশি সমার্থক শব্দ সেটা বলা যাবে না। সেটা সামনে গেলে দেখতে পাবেন।
 
-I like to group posts by general categories like `articles`, `portfolio`, `whatever`, and using tags to more specific classifications.
+## ১০. কোন 'একটা' স্কিলসেট মেশিন লার্নিং শিখতে দরকার?
 
-#### Modified Date
+উত্তরঃ ডেটা নিয়ে পড়ে থাকা। ডেটা থেকে প্যাটার্ন বের করতে জানতে - পড়ে থাকতে হবে ডাটা নিয়ে। সারাদিন।
 
-If you assign a modified date to a post or page it will override the published date and appear in the page footer with the following format `Updated August 27, 2014`. It's also used as metadata to give search engines another piece of info about your content.
+## ১১. আপনি মজা পান কিভাবে?
 
-I like to use this [Sublime Text plugin](https://github.com/FichteFoll/sublimetext-insertdate) to insert the current date after I've updated a post, but you can do it manually to. It should follow the same date format used by Jekyll when naming posts: `YYYY-MM-DD`.
+উত্তরঃ সময় পেলেই আমার চাকরি অথবা বাসার বেশিরভাগ সমস্যা মেটাতে ব্যবহার করি 'মেশিন লার্নিং'। চেষ্টা করি সবকিছু প্লট করতে। যদি কিছু দেখা যায়? বলতে পারেন, মশা মারতে কামান দাগা। হয়তোবা শুরুতেই তাই। তবে, ধারণা পাচ্ছি অনেকদূর ভুল করতে করতেই।
 
-```yaml
-modified: 2014-08-27
-modified: 2014-08-27T11:57:41-04:00 # more verbose, also acceptable
-```
+সবাই একটা জায়গা দেখতে চান কোথায় সবকিছু হচ্ছে। নিচের লিংক A curated list of awesome machine learning frameworks, libraries and software \(by language\).
 
-#### Images
+লিংক [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
-Here you can define the various images assigned to posts and pages. 
+## ১২. বাংলায় মেশিন লার্নিং শেখার প্ল্যাটফর্মগুলো কী?
 
-##### Featured Images
+উত্তর: তিন ভাবে শুরু করা যায়।
 
-A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices without bloating your site. If you want to level-up your site I'd suggest looking at the [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag) plugin[^plugins] to make them responsive.
+ক. যারা বই পড়তে চান, মানে হ্যান্ডনোট, তাদের জন্য লেখা হয়েছে তিনটা বই। অনলাইনে আছে। বইটা এমন ভাবে লেখা আছে যেখানে আপনার ভিডিও দরকার নেই। তবে, দেখলে তাড়াতাড়ি শেখা হবে। বইগুলোর লিংক [https://raqueeb.gitbooks.io/mlbook-titanic/](https://raqueeb.gitbooks.io/mlbook-titanic/)
 
-[^plugins]: If you're using GitHub Pages to host your site be aware that plugins are disabled. You'll need to build your site locally and then manually deploy if you want to use this sweet plugin.
+[https://raqueeb.gitbook.io/scikit-learn/](https://raqueeb.gitbook.io/scikit-learn/)
 
-The post and page layouts make the assumption that the feature images live in the `images/` folder. To add a feature image to a post or page just include the filename in the front matter like so.
+শূন্য থেকে পাইথন মেশিন লার্নিং। প্রিন্ট বই এর লিঙ্ক [https://www.rokomari.com/book/187277/](https://www.rokomari.com/book/187277/)
 
-```yaml
-image:
-  feature: feature-image-filename.jpg
-```
+দ্বিতীয় সংস্করণ হার্ডকপি বইটা পাওয়া যাবে [https://www.rokomari.com/book/174186/](https://www.rokomari.com/book/174186/)
 
-To add attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source (if supplied).
+খ. যারা ভিডিও দিয়ে শুরু করতে চান, তাদের জন্য তৈরি করা আছে কয়েকটা প্লে-লিস্ট। ফেসবুক পেজে ক্লিক করুন "ভিডিও" ট্যাবে। সেখানেই পাবেন প্লেলিস্ট। আলাদা করে। লিংক [https://www.facebook.com/mltraining/videos/](https://www.facebook.com/mltraining/videos/)
 
-```yaml
-image:
-  feature: feature-image-filename.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: https://mademistakes.com #url to their site or licensing
-```
+ইউটিউবে আছে আলাদা চ্যানেল। সেখানেও আছে প্লেলিস্ট আকারে। আমাদের ফেইসবুক পেইজে “লার্ন মোর” ক্লিক করলেই চলে যাবেন ইউটিউব লিংকে।
 
-##### Teasers Images
+## ১৩. ইউটিউব লিংকটা বলবেন কি?
 
-Teaser images appear on archive pages in the post grid and are also used in the off-canvas menu. If you don't assign a teaser image for a specific post or page, the default one will be used. The default image can be set in `_config.yml` under site wide configuration `teaser: 400x250.gif`. Teaser images should be roughly 400 x 250 pixels to scale comfortably across screen sizes.
+\*\*\*\*[http://bit.ly/ml-trng](http://bit.ly/ml-trng) সেখানে আপনি চলে যাবেন প্লে-লিস্টগুলোতে।
 
-<figure>
-  <img src="{{ site.url }}/images/teaser-screenshot.jpg" alt="teaser image screenshot">
-  <figcaption>Images outlined in red show how teasers typically display</figcaption>
-</figure>
+## ১৪. বর্তমানে চাকরির অবস্থা কি?
 
-Similar to feature images you don't want to go crazy and use large high resolution assets for your teasers. Keep in mind performance and balance accordingly.
+বেশ কয়েকটি ই-কমার্স সাইট/সার্ভিস ইন্ডাস্ট্রির ম্যানেজমেন্ট লেভেল/প্রতিষ্ঠাতারা আমাকে মাঝে মধ্যে "ভালো" ডেটা  সায়েন্টিস্ট খুঁজে দিতে বলেন। তবে খুব কম মানুষকে রেফার করতে পেরেছি - কারণ ইন্ডাস্ট্রি এবং আমাদের ডেটা  সায়েন্টিস্টরা সেই লেভেলের 'ইউজ কেস' ধরে এগুতে পারছেন না। এটা তাদের সমস্যা নয়। সমস্যা মার্কেট গ্যাপে। নতুন ইন্ডাস্ট্রি, কোম্পানিগুলোর এক্সপেক্টেশন আর ঠিক মানুষটা তৈরির মধ্যে একটা ফারাক আছে। এটা বেশিদিন থাকবে না।   
 
-To assign a teaser image on a post use the following YAML:
+আমাদের ডেটা ইন্ডাস্ট্রি তৈরি হচ্ছে তবে সরকারি/বেসরকারি 'ভালো' লেবেলড ডেটা অতোটা না থাকায় সেটার আউটকাম আসতে একটু সময় লাগছে। তবে, আশার কথা হচ্ছে যারা অন্য ইন্ডাস্ট্রিতে আছেন, তবে তাদের ইন্ডাস্ট্রিতে মেশিন লার্নিং দিয়ে নিজেদের সমস্যা মেটানোর জন্য আমার সাথে কথা বলছেন, সেখানে আমার অ্যাসেসমেন্ট হচ্ছে তারা শিখছেন ভালো। আসল কথা হচ্ছে, যে নিজের সমস্যাকে ঠিকমতো ডিফাইন করতে পারে, তারা সেটার উত্তর তাড়াতাড়ি খুঁজে পান। 
 
-```yaml
-image:
-  teaser: 400x250.gif
-  feature: feature-image-filename.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: https://mademistakes.com #url to their site or licensing
-```
+**সারমর্ম:** TL;DR, যে যেখানে আছেন মানে যেই ইন্ডাস্ট্রিতে আছেন, সেটার একটা সমাধান বের করার চেষ্টা করুন মেশিন লার্নিং দিয়ে। চ্যালেঞ্জ দিন নিজেকে। তাহলে শিখবেন অতি দ্রুত। তখন আপনি সুইচ করতে পারবেন সেই কোম্পানিগুলোতে যারা শুধুমাত্র ডেটা সাইন্স নিয়ে কাজ করে।  
 
-#### Table of Contents
+## ১৫. আমাদের দেশের যারা নতুন শিখতে চায় তাদের মাথায় থাকে এটা শিখলে কি হবে? জব কি পাবো? বাংলাদেশের মার্কেটে তো জব নেই! তাহলে আমরা কেনও শিখবো মেশিন লার্নিং?** যে কয়টা আছে জব সেগুলোতেও চায় অনেক বেশি অভিজ্ঞতা যা এখন অনেকের হতাশার কারণ হয়ে দাঁড়িয়েছে। আমি নিজেই এমন অনেক কথা শুনেছি যারা হতাশাগ্রস্ত এই বিষয়গুলো নিয়ে। **ভাইয়া, আপনার কাছে এদের জন্য কি পরামর্শ ?
 
-For longer posts you may find it beneficial to include a table of contents menu. Add `{% raw %}{% include toc.html %}{% endraw %}` where you'd like the TOC to appear and Kramdown will take care of the rest by converting all headlines to list of links.
+অসাধারণ অবজারভেশন। ধন্যবাদ আপনাকে। একদম ঠিক বলেছেন, সবাই একটা স্কিল শিখেই চাকরি করতে চাইবেন। এটাই স্বাভাবিক। আমাকেও অনেকে এই প্রশ্নটা করেন। ব্যাপারটাকে আমি অস্বাভাবিক ভাবি না।
 
-If you need to alter the *Overview* headline text that appears at the top of the list, you can do so by editing `_data/messages.yml`.
+আমি সবাইকে বলি, আমাদের সারা জীবনে অনেকগুলো স্কিলসেট ডেভলপ করতে হবে। আগের মত সেই সময় নেই যে, এক চাকরিতে ঢুকলাম সেটা করে পার করে দেবো সারা জীবন। সময়টা এখন অনেক চ্যালেঞ্জিং। আমার প্রায় ৭০ এর বেশি সার্টিফিকেট আছে বিভিন্ন বিষয়ে। এখন বুঝতে পারি, সার্টিফিকেট, ডিগ্রী জিনিসগুলোর দাম থাকে না যখন কোম্পানি দেখেন তার দরকারি জিনিসপত্র অনেকে তুলতে পারছেন না।
 
-#### Google AdSense
+একটা কোম্পানি একজনকে হায়ার করবেন তার স্পেসিফিক একটা সমস্যা সমাধান করার জন্য। সেখানে সার্টিফিকেট বা ডিগ্রী একটা স্ক্রীনিং ক্রাইটেরিয়া হয় কারণ মার্কেটে অনেক অনেক চাকরিপ্রার্থী। তবে, কোম্পানিগুলো এখন তার স্পেসিফিক কাজ তোলার জন্য ব্যাকগ্রাউন্ড চেক মানে সার্টিফিকেট বা ডিগ্রির দরকার কমিয়ে দিয়েছেন।
 
-To use Google Ads on your site create a [Google AdSense account](https://www.google.com/adsense/) and then add your `ad-client` and `ad-slot` variables to `_config.yml`. To show ads on a post/page add `ads: true` to the YAML Front Matter.
+আমার জীবনে আমি নিজেও যখন যেটা দরকার সেটা শিখে নিয়েছি। চাকরির ২৮ বছর বয়সে ৭বার নিজেকে রি-স্কিলিং করেছি। আমার সাথে একই ইন্ডাস্ট্রিতে কাজ করছেন যারা, অনেক প্রতিভাবান প্রোগ্রামার, তাদেরকে দেখেছি তারা কন্টিনিউয়াসলি তাদের স্কিলস-সেট আপডেট করছেন। যখন যেটা দরকার। To stay ahead of the game. বাজারে কেউ 'সাইডলাইনড' বা 'রিডান্ডেন্ট' হতে চান না। অবসর নিলে আলাদা কথা। 
 
-<figure>
-  <img src="{{ site.url }}/images/google-adsense-responsive.jpg" alt="responsive type">
-</figure>
+আমার উপদেশ দুটো।
 
-Select **responsive** for ad type, allowing it to display at various sizes. If you'd like to use a different ad network just edit the appropriate HTML and JavaScript found in `_includes/advertising.html`.
+১. যখন কেউ কোন একটা স্কিলসেটকে জীবন মরণ সমস্যা হিসেবে ধরে নেয়, তখন সেটা থেকে আউটকাম অসাধারণ হয়। একটা স্পেসিফিক স্কিলসেট শেখার জন্য প্রাণান্তকর চেষ্টা, চাকরি পাবার জন্য নয়। মানে, দরকারি টুলসেটগুলো শিখে নিজেকে আপডেট রাখা। তখন তার সামাজিক প্রোফাইল না দেখে সবাই গিটহাব প্রোফাইল দেখেন। কোম্পানিগুলো তাদের সাথে সরাসরি কথা বলেন, কোম্পানির স্পেসিফিক সমস্যা নিয়ে। যদি তিনি সেই কোম্পানির স্পেসিফিক সমস্যার লাইন ধরিয়ে দিতে পারেন তখন চাকরি সহজতর হয়। অনলাইনে বিভিন্ন ফোরামে তাদের সহায়তা করার প্রবণতাও অনেককে নতুন নতুন চাকরি পেতে সহায়তা করে।
 
-#### Disqus Comments
+২. আমাদের জীবনে হয়তোবা আমরা অল্প কিছু জিনিস শিখে পার হতে পেরেছি, তবে সেটা এখন আর খাটবে না। একটা জীবনে অনেকগুলো স্কিলসেট শিখতে হবে। পাশাপাশি কিছু পুরনো স্কিলসেট ভুলে নতুন স্কিলসেট, যেটাকে আমরা বলি রিস্কিলিং, সেটা অবশ্যই দরকার।
 
-Create a [Disqus](http://disqus.com) account and change `disqus-shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its YAML Front Matter:
+সবশেষে, মার্কেট ইমার্জিং, আমি দেখছি আমার পরিচিত অনেকেই ইউরোপ এবং জাপানে চাকরির অফার পাচ্ছেন এই ডেটা সায়েন্স নিয়ে। মার্কেট তৈরি হচ্ছে। বাংলাদেশে নয়, ভাবতে হবে গ্লোবাল লেভেলে। বর্তমান একটা চাকরিতে থেকে অথবা যে যেখানে আছে সেখান থেকেই এই নতুন স্কিলসেট মানে মেশিন লার্নিং শেখা উচিত। "Who knows when lightning could strike?"
 
-```yaml
-comments: true
-```
+## ১৫. বিপদে পড়লে যোগাযোগ করার অপশন?
 
-#### Social Sharing Links
+উত্তর: মেসেঞ্জার [http://m.me/raqueeb](http://m.me/raqueeb) এবং ০১৭১৩০৯৫৭৬৭ \(বিকাল ৫- ৭টা\)
 
-Social sharing links for Twitter, Facebook, and Google+ are included on posts/pages using the `article` and `media` layouts by default. To hide them on specific posts or pages add `share: false` to the YAML Front Matter. If you'd like to use different social networks modify `_includes/share-this.html` to your liking. Icons are set using [Font Awesome](http://fontawesome.io/).
-
-<figure>
-  <img src="{{ site.url }}/images/social-sharing-links-screenshot.jpg" alt="social sharing links screenshot">
-  <figcaption>Share links appear the below author details block.</figcaption>
-</figure>
-
----
-
-### Pages
-
-#### Organizing Pages
-
-Maintaining pretty URLs for your site can be handled in two ways when creating new pages.
-
-Place a `.md` file at the root level and add the appropriate permalink to the YAML Front Matter. For example if you want your **About** page to live at `domain.com/about/` create a file named `/about.md` and add `permalink: /about/` to its YAML Front Matter.
-
-Or you can create `/about/index.md` and omit the YAML permalink. Up to you how you'd like to organize your pages.
-
-You can also group pages in a `_pages` folder similiar to `_posts` if you [follow this short guide](https://mmistakes.github.io/minimal-mistakes/docs/pages/).
-
-### Archives
-
-Create an archive page for each category or section of your site that you want to list a collection of posts. On these pages you'll want to use the `archive` layout and use a variation of the following for the page's content changing `foo` to the appropriate category you want to list posts from.
-
-```html
-<div class="tiles">
-{{ "{% for post in site.categories.foo " }}%}
-  {{ "{% include post-grid.html " }}%}
-{{ "{% endfor " }}%}
-</div><!-- /.tiles -->
-```
-
-If you'd prefer a less visual list of posts use `{{ "{% include post-list.html " }}%}` instead of the `post-grid.html` _include.
-
----
-
-## Adding New Content
-
-Posts are stored in the `_posts` directory and named according to the `YEAR-MONTH-DAY-title.MARKUP` format as per [the usual](https://jekyllrb.com/docs/posts/).
-
-To streamline the creation of posts and pages, [Jekyll::Compose](https://github.com/jekyll/jekyll-compose) and [Octopress](https://github.com/octopress/octopress) are great plugins you can install to automate this process.
-
----
-
-## Contributing
-
-Found a bug or aren't quite sure how something works? By all means [submit an issue](https://github.com/mmistakes/jekyll-theme-skinny-bones/issues) on GitHub. For straight forward bug fixes feel free to submit pull requests. 
-
-**Skinny Bones** was built predominately as a framework for [my own site](http://mademistakes.com). My intention was never to make it all things for all people. So please keep that in mind before submitting new features or enhancements. If you've used any of my [Jekyll themes](http://mademistakes.com/work/jekyll-themes/) I think it's pretty clear what I like and what I try to avoid. When in doubt ask before wasting your time on a feature that won't get merged in.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+ধন্যবাদ আপনাদেরকে।
