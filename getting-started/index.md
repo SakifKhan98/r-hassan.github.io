@@ -30,6 +30,14 @@ share: false
 
 ![মেশিন লার্নিং এর বাংলা সব বই](../images/teqt.jpg)
 
+<div class="badges">
+	<span class="badge">1</span>
+	<span class="badge inverse">2</span>
+	<span class="badge info">3</span>
+	<span class="badge warning">4</span>
+	<span class="badge danger">5</span>
+	<span class="badge success">6</span>
+</div>
 ---
 ## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
