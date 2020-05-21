@@ -31,15 +31,10 @@ share: false
 ![মেশিন লার্নিং এর বাংলা সব বই](../images/teqt.jpg)
 
 ---
-**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
-{: .notice--info}
-
-**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll throw `Unknown tag 'include_cached'` errors at build.
-{: .notice--warning}
-
 ## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
-হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)। 
+হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)।
+{: .notice--info}
 
 | বইয়ের নাম | অনলাইন লিংক | প্রিন্ট বই | ইউটিউব লিংক |
 | :--- | :--- | :--- | :--- |
@@ -101,6 +96,7 @@ share: false
 ```
 ---
 লাল বইটা হচ্ছে যারা মেশিন লার্নিং সম্বন্ধে কিছুই জানেন না এবং শুরু করতে চান, প্রোগ্রামিং সম্বন্ধে কোন ধারনা নেই, তবে মেশিন লার্নিং কে নিজেদের মতো করে বুঝতে চান। এই বইটি শুরু করা হয়েছে আর প্রোগ্রামিং এনভারমেন্ট দিয়ে, একই প্রজেক্ট সলভ করা আছে পাইথন দিয়ে।
+{: .notice--warning}
 
 সূচিপত্র: [http://bit.ly/ml-ho-2nd](http://bit.ly/ml-ho-2nd)
 
