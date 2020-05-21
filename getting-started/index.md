@@ -31,6 +31,12 @@ share: false
 ![মেশিন লার্নিং এর বাংলা সব বই](../images/teqt.jpg)
 
 ---
+**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
+{: .notice--info}
+
+**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll throw `Unknown tag 'include_cached'` errors at build.
+{: .notice--warning}
+
 ## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
 হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)। 
