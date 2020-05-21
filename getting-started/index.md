@@ -30,6 +30,7 @@ share: false
 
 ![মেশিন লার্নিং এর বাংলা সব বই](../images/teqt.jpg)
 
+---
 ## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
 হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)। 
@@ -37,9 +38,10 @@ share: false
 | বইয়ের নাম | অনলাইন লিংক | প্রিন্ট বই | ইউটিউব লিংক |
 | :--- | :--- | :--- | :--- |
 | হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbooks.io/mlbook-titanic/content/) | [রকমারি](https://rokomari.com/book/174186/) | [প্লেলিস্ট](http://bit.ly/ml-2nd) |
-| 'শূন্য থেকে পাইথন মেশিন লার্নিং' \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbook.io/scikit-learn/%20) | [রকমারি](https://www.rokomari.com/book/187277/) | [প্লেলিস্ট](http://bit.ly/ml-py2) |
-| হাতেকলমে পাইথন ডিপ লার্নিং | [গিটবুক](https://www.rokomari.com/book/198757/%20) | [রকমারি](https://www.rokomari.com/book/198757/) | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
-| তিনটা বই একসাথে কেনার লিঙ্ক |  | [রকমারি](https://www.rokomari.com/book/187570/) | [ভবিষ্যত](https://www.youtube.com/playlist?list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
+| 'শূন্য থেকে পাইথন মেশিন লার্নিং' \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbook.io/scikit-learn/) | [রকমারি](https://www.rokomari.com/book/187277/) | [প্লেলিস্ট](http://bit.ly/ml-py2) |
+| হাতেকলমে পাইথন ডিপ লার্নিং | [গিটবুক](https://rakibul-hassan.gitbook.io/deep-learning/) | [রকমারি](https://www.rokomari.com/book/198757/) | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
+| হাতেকলমে ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং | [গিটহাব](https://github.com/raqueeb/nlp_bangla) | প্রকাশিতব্য | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L4sMoCygyX3cKkSOKdQA_BT) |
+| তিনটা বই একসাথে কেনার লিঙ্ক | আসবে | [রকমারি](https://www.rokomari.com/book/187570/) | [ভবিষ্যত](https://www.youtube.com/playlist?list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
 
 #### ১. হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\)
 
@@ -63,7 +65,7 @@ share: false
 
 ## নীলক্ষেতে কোন দোকানগুলোতে পাওয়া যাবে?
 
-> \(ঙ\) হার্ডকপি পাওয়া যাবে রকমারি, আদর্শ, বাতিঘরসহ বেশ কয়েকটা লাইব্রেরিতে। নীলক্ষেতেও পাওয়া যায় কয়েকটা দোকানে। **মানিক লাইব্রেরী নীলক্ষেত ঢাকা**, ০১৭৩৫৭৪২৯০৮ এবং **হক লাইব্রেরী নীলক্ষেত** ০১৮২০১৫৭১৮১ / ০১৫১১১৫৭১৮১ / ০১৭৪৩৫১৬৩৪৪।
+> #### \(ঙ\) হার্ডকপি পাওয়া যাবে রকমারি, আদর্শ, বাতিঘরসহ বেশ কয়েকটা লাইব্রেরিতে। নীলক্ষেতেও পাওয়া যায় কয়েকটা দোকানে। **মানিক লাইব্রেরী নীলক্ষেত ঢাকা**, ০১৭৩৫৭৪২৯০৮ এবং **হক লাইব্রেরী নীলক্ষেত** ০১৮২০১৫৭১৮১ / ০১৫১১১৫৭১৮১ / ০১৭৪৩৫১৬৩৪৪।
 
 ## ভিডিও দেখে শিখতে চাই, ইউটিউব লিংক
 
