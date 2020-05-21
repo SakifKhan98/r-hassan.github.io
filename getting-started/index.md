@@ -30,19 +30,20 @@ share: false
 
 ![মেশিন লার্নিং এর বাংলা সব বই](../images/teqt.jpg)
 
+চারটা বই 
+
 <div class="badges">
-	<span class="badge">1</span>
-	<span class="badge inverse">2</span>
-	<span class="badge info">3</span>
-	<span class="badge warning">4</span>
-	<span class="badge danger">5</span>
-	<span class="badge success">6</span>
+	<span class="badge">আর প্রোগ্রামিং</span>
+	<span class="badge info">আর এবং পাইথন প্রোগ্রামিং</span>
+	<span class="badge warning">পাইথন প্রোগ্রামি</span>
+	<span class="badge danger">পাইথন প্রোগ্রামি ডিপ লার্নিং</span>
+	<span class="badge success">ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং</span>
 </div>
 ---
 ## কিভাবে শুরু করবেন? বই কোথায় পাবো?
 
 হাতেকলমে শেখার জন্য তিনটা বই। আরেকটা নতুন বই ডিপ লার্নিং নিয়ে। সামনে দেখুন। মেশিন লার্নিং বই দুটো শেষ করে ধরা যাবে ডিপ লার্নিং বই। সবগুলো বই অনলাইনে দেয়া আছে। ধারণা পাবার জন্য সব বই একসাথে পাবার [রকমারি লিংক](https://www.rokomari.com/book/187570/)।
-{: .notice--info}
+{: .notice}
 
 | বইয়ের নাম | অনলাইন লিংক | প্রিন্ট বই | ইউটিউব লিংক |
 | :--- | :--- | :--- | :--- |
