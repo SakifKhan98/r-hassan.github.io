@@ -28,7 +28,12 @@ share: false
 
 ## গিটবুক
 
-## ইউটিউব) 
+* [প্রথম গিটবুক](https://raqueeb.gitbooks.io/mlbook-titanic/content/)
+* [দ্বিতীয় গিটবুক](https://rakibul-hassan.gitbook.io/mlbook-titanic/j_notebook/titanic-project-test)
+* [তৃতীয় গিটবুক](https://raqueeb.gitbook.io/scikit-learn/)
+* [চতুর্থ গিটবুক](https://www.rokomari.com/book/198757/)
+
+## ইউটিউব
 
 ২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng) । 
 
