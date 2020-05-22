@@ -18,7 +18,6 @@ share: false
 Bowman: Open the pod bay doors, HAL. 
 HAL 9000: I'm sorry, Dave. I'm afraid I can't do that. 
 -- 2001: A Space Odyssey
-}
 ```
 <a href="#" class="btn">সিস্টেম</a>
 <a href="#" class="btn-info">ডেটা</a>
