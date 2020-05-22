@@ -28,9 +28,14 @@ share: false
 
 ## গিটবুক
 
-## ইউটিউব
+## ইউটিউব) 
+
+২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng) । 
 
 ## ফেইসবুক
 
+২০০+ ভিডিও, [এখানে](https://www.facebook.com/mltraining/videos) ।
+
 ## ওয়েবসাইট
 
+একটা বুকমার্ক পজিশন [এখানে](https://r-hassan.github.io/about/) ।
