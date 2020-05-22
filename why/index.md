@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ইন্টেলিজেন্ট মেশিন নিয়ে কিছু ভাবনা"
+title: "ইন্টেলিজেন্ট মেশিন দরকার কেন?"
 date: 2019-08-25T13:57:25-04:00
 modified: 2019-8-01T16:21:57-04:00
 excerpt:
@@ -15,7 +15,9 @@ share: false
 {% include toc.html %}
 
 Bowman: Open the pod bay doors, HAL.
+
 HAL 9000: I'm sorry, Dave. I'm afraid I can't do that.
+
 -- 2001: A Space Odyssey
 {: .notice}
 
