@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: কিভাবে শুরু করবো?
-  url: /getting-started/
-  excerpt: "কিভাবে আমরা শুরু করবো, কি শিখতে চাইবো?"
-  image: 400x250.gif
-
 - title: কেন?
   url: /why/
   excerpt: "কেন দরকার ইন্টেলিজেন্ট সিস্টেম?"
+  image: 400x250.gif
+
+- title: কিভাবে শুরু করবো?
+  url: /getting-started/
+  excerpt: "কিভাবে আমরা শুরু করবো, কি শিখতে চাইবো?"
   image: 400x250.gif
 
 - title: বাংলায় রিসোর্স
