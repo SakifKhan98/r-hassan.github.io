@@ -5,17 +5,17 @@
   excerpt: "কিভাবে আমরা শুরু করবো, কি শিখতে চাইবো?"
   image: 400x250.gif
 
-- title: কোথায় যাবো?
-  url: /articles/
-  excerpt: "Examples of long form posts."
+- title: কেন?
+  url: /why/
+  excerpt: "কেন দরকার ইন্টেলিজেন্ট সিস্টেম?"
   image: 400x250.gif
 
-- title: কি ভাবছি?
-  url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+- title: বাংলায় রিসোর্স
+  url: /resources/
+  excerpt: "বাংলায় ইন্টেলিজেন্ট সিস্টেম নিয়ে আমার তৈরি করা রিসোর্স"
   image: 400x250.gif
 
 - title: আমি কে?
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "আমি কে, কেন এলাম ইন্টেলিজেন্ট সিস্টেম নিয়ে?"
   image: 400x250.gif
