@@ -52,7 +52,7 @@ ads: false
 ## জ্ঞানের ডিফিউশন
 
 <figure>
-	<a href="./images/kec.png"><img src="./images/kec.png"></a>
+	<a href="../images/kec.png"><img src="../images/kec.png"></a>
 	<figcaption>জ্ঞান তো হলো অনেক, অভিজ্ঞতা কাজে লাগালে আসবে প্রজ্ঞা। সেটাকে প্রয়োগ করলেই উন্নতি। দেশের।</figcaption>
 </figure>
 
