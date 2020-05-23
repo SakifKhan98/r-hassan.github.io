@@ -17,23 +17,25 @@ share: false
 আমি ছোটবেলা থেকেই অফিশিয়াল ডকুমেন্টেশনে বিশ্বাসী। যাকে আমরা বলি RTFM, ‘রিড দ্য ফাইন ম্যানুয়াল’ চলে আসছে সেই নিউজ গ্রুপের যুগ থেকে। ছোটবেলায় কমোডরের সঙ্গে আসা সেই ‘জি ডব্লিউ বেসিক’-এর সেই ম্যানুয়াল আমাকে দেখিয়েছিল কীভাবে অফিশিয়াল ডকুমেন্টেশন অসাধারণ হয়। আচ্ছা, যিনি একটা প্রোডাক্ট বানিয়েছেন, তার তৈরি ম্যানুয়াল ভালো হবে না আর কারটা হবে?
 {: .notice}
 
-## এক নজরে
+## এক নজরে (টেবিলে লিংক)
 
 | বইয়ের নাম | অনলাইন লিংক | প্রিন্ট বই | ইউটিউব লিংক |
 | :--- | :--- | :--- | :--- |
 | হাতেকলমে মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbooks.io/mlbook-titanic/content/) | [রকমারি](https://rokomari.com/book/174186/) | [প্লেলিস্ট](http://bit.ly/ml-2nd) |
+| প্রথম সংস্করনে নেই যে পাইথন অংশ | [গিটবুক](https://rakibul-hassan.gitbook.io/mlbook-titanic/j_notebook/titanic-project-test) | [রকমারি](https://rokomari.com/book/174186/) | নেই |
 | 'শূন্য থেকে পাইথন মেশিন লার্নিং' \(দ্বিতীয় সংস্করণ\) | [গিটবুক](https://raqueeb.gitbook.io/scikit-learn/) | [রকমারি](https://www.rokomari.com/book/187277/) | [প্লেলিস্ট](http://bit.ly/ml-py2) |
-| হাতেকলমে পাইথন ডিপ লার্নিং | [গিটবুক](https://www.rokomari.com/book/198757/) | [রকমারি](https://www.rokomari.com/book/198757/) | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
-| তিনটা বই একসাথে কেনার লিঙ্ক |  | [রকমারি](https://www.rokomari.com/book/187570/) | [ভবিষ্যত](https://www.youtube.com/playlist?list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
+| হাতেকলমে পাইথন ডিপ লার্নিং | [গিটবুক](https://rakibul-hassan.gitbook.io/deep-learning/) | [রকমারি](https://www.rokomari.com/book/198757/) | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
+| হাতেকলমে ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং | [গিটহাব](https://github.com/raqueeb/nlp_bangla) | প্রকাশিতব্য | [প্লেলিস্ট](https://www.youtube.com/playlist?list=PL5NPSn95n_L4sMoCygyX3cKkSOKdQA_BT) |
+| তিনটা বই একসাথে কেনার লিঙ্ক | আসবে | [রকমারি](https://www.rokomari.com/book/187570/) | [ভবিষ্যত](https://www.youtube.com/playlist?list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
 
 ## গিটবুক
 
-* [প্রথম গিটবুক](https://raqueeb.gitbooks.io/mlbook-titanic/content/)
-* [দ্বিতীয় গিটবুক](https://rakibul-hassan.gitbook.io/mlbook-titanic/j_notebook/titanic-project-test)
-* [তৃতীয় গিটবুক](https://raqueeb.gitbook.io/scikit-learn/)
-* [চতুর্থ গিটবুক](https://www.rokomari.com/book/198757/)
+* [প্রথম গিটবুক, হাতেকলমে মেশিন লার্নিং](https://raqueeb.gitbooks.io/mlbook-titanic/content/)
+* [দ্বিতীয় গিটবুক, টাইটানিক -পাইথন অংশ](https://rakibul-hassan.gitbook.io/mlbook-titanic/j_notebook/titanic-project-test)
+* [তৃতীয় গিটবুক, শুন্য থেকে পাইথন মেশিন লার্নিং](https://raqueeb.gitbook.io/scikit-learn/)
+* [চতুর্থ গিটবুক, পাইথন ডিপ লার্নিং](https://www.rokomari.com/book/198757/)
 
-## ইউটিউব
+## ইউটিউব, প্লেলিস্ট ধরে
 
 ২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng) । 
 
@@ -51,7 +53,7 @@ share: false
 | [মেশিন লার্নিং: "আর" এনভায়রনমেন্ট](https://www.youtube.com/watch?v=4-eFCfksLi0&list=PL5NPSn95n_L7758jfVvrlmWuKiWR3VnlU) | [ইউটিউব](https://www.youtube.com/watch?v=4-eFCfksLi0&list=PL5NPSn95n_L7758jfVvrlmWuKiWR3VnlU) |
 | [১ মিনিটে মেশিন লার্নিং](https://www.youtube.com/watch?v=1tK_BbHFr48&list=PL5NPSn95n_L5jOaUoLci1_b6jiB_RM7at) | [ইউটিউব](https://www.youtube.com/watch?v=1tK_BbHFr48&list=PL5NPSn95n_L5jOaUoLci1_b6jiB_RM7at) |
 
-## ফেইসবুক
+## ফেইসবুক, প্লেলিস্ট আছে ভেতরে
 
 ২০০+ ভিডিও, [এখানে](https://www.facebook.com/mltraining/videos) ।
 
