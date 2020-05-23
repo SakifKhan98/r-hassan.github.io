@@ -37,6 +37,22 @@ share: false
 
 ২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng) । 
 
+| প্লেলিস্ট এর নাম | প্ল্যাটফর্ম |
+| :--- | :--- |
+| [সহজ বাংলায় 'বাংলা' ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং](https://www.youtube.com/playlist?list=PL5NPSn95n_L4sMoCygyX3cKkSOKdQA_BT) | [ইউটিউব](https://www.youtube.com/playlist?list=PL5NPSn95n_L4sMoCygyX3cKkSOKdQA_BT) |
+| [মেশিন লার্নিং \(দ্বিতীয় সংস্করণ\) বইয়ের ভিডিও সিরিজ](https://www.youtube.com/playlist?list=PL5NPSn95n_L4AUOUjfZamspLzCAEeJW3p) | [ইউটিউব](https://www.youtube.com/playlist?list=PL5NPSn95n_L4AUOUjfZamspLzCAEeJW3p) |
+| [শুন্য থেকে পাইথন মেশিন লার্নিং বই ভিডিও সিরিজ
+](https://www.youtube.com/playlist?list=PL5NPSn95n_L6otapZwZILRZ0016XSyKS7) | [ইউটিউব](https://www.youtube.com/playlist?list=PL5NPSn95n_L6otapZwZILRZ0016XSyKS7) |
+| [রকিবের সাথে ডীপ লার্নিং, টেনসর ফ্লো
+](https://www.youtube.com/playlist?list=PL5NPSn95n_L7XouyUuSbNE-v3zxq5LxfV) | [ইউটিউব](https://www.youtube.com/playlist?list=PL5NPSn95n_L7XouyUuSbNE-v3zxq5LxfV) |
+| [প্রথম নিউরাল নেটওয়ার্ক ট্রেনিং - টেনসর ফ্লো](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) | [ইউটিউব](https://www.youtube.com/playlist?list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
+| [রকিবের সাথে কৃত্রিম বুদ্ধিমত্তা: সামনের ৫ বছর](https://www.youtube.com/watch?v=39nFK52uE7I&list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) | [ইউটিউব](https://www.youtube.com/watch?v=39nFK52uE7I&list=PL5NPSn95n_L5UIuCYp0ZUAVB-DBkGh9pZ) |
+| [পাইথনে মেশিন লার্নিং](https://www.youtube.com/watch?v=s-BQnTcgaDs&list=PL5NPSn95n_L4_foe3F8iKwNn9Ovhtuikg) | [ইউটিউব](https://www.youtube.com/watch?v=s-BQnTcgaDs&list=PL5NPSn95n_L4_foe3F8iKwNn9Ovhtuikg) |
+| [প্রথম নিউরাল নেটওয়ার্ক ট্রেনিং - টেনসর ফ্লো](https://www.youtube.com/watch?v=iL1OpDE0K6E&list=PL5NPSn95n_L4A4avTNLKeEZNZbVGhuHWF) | [ইউটিউব](https://www.youtube.com/watch?v=eeR85_wzM-o&list=PL5NPSn95n_L64yse4BRzRYFn5HTYw1Ewb) |
+| [কনভল্যুশনাল নিউরাল নেটওয়ার্কস \(CNN](https://www.youtube.com/watch?v=iL1OpDE0K6E&list=PL5NPSn95n_L4A4avTNLKeEZNZbVGhuHWF)\) | [ইউটিউব](https://www.youtube.com/watch?v=iL1OpDE0K6E&list=PL5NPSn95n_L4A4avTNLKeEZNZbVGhuHWF) |
+| [মেশিন লার্নিং: "আর" এনভায়রনমেন্ট](https://www.youtube.com/watch?v=4-eFCfksLi0&list=PL5NPSn95n_L7758jfVvrlmWuKiWR3VnlU) | [ইউটিউব](https://www.youtube.com/watch?v=4-eFCfksLi0&list=PL5NPSn95n_L7758jfVvrlmWuKiWR3VnlU) |
+| [১ মিনিটে মেশিন লার্নিং](https://www.youtube.com/watch?v=1tK_BbHFr48&list=PL5NPSn95n_L5jOaUoLci1_b6jiB_RM7at) | [ইউটিউব](https://www.youtube.com/watch?v=1tK_BbHFr48&list=PL5NPSn95n_L5jOaUoLci1_b6jiB_RM7at) |
+
 ## ফেইসবুক
 
 ২০০+ ভিডিও, [এখানে](https://www.facebook.com/mltraining/videos) ।
