@@ -39,7 +39,7 @@ share: false
 
 ২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng)! একটা উদাহরণ দেখতে পারেন নিচে।
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/watch?v=a9PnAA0Asf8" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/a9PnAA0Asf8" frameborder="0"> </iframe>
 
 | প্লেলিস্ট এর নাম | প্ল্যাটফর্ম |
 | :--- | :--- |
