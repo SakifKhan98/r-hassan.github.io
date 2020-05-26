@@ -37,7 +37,7 @@ share: false
 
 ## ইউটিউব, প্লেলিস্ট ধরে
 
-২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng)!
+২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng)! একটা উদাহরণ দেখতে পারেন নিচে।
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/watch?v=a9PnAA0Asf8" frameborder="0"> </iframe>
 
