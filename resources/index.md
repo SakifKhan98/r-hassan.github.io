@@ -38,7 +38,7 @@ share: false
 ## ইউটিউব, প্লেলিস্ট ধরে
 
 ২০০+ ভিডিও, [এখানে](http://bit.ly/ml-trng) । 
-<iframe width="560" height="315" src="//www.youtube.com/watch?v=VTlHqne89BA" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=VTlHqne89BA" frameborder="0"> </iframe>
 
 | প্লেলিস্ট এর নাম | প্ল্যাটফর্ম |
 | :--- | :--- |
